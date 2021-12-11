@@ -21,7 +21,7 @@ release:
     ```
     ### Linux
     ```
-    sudo wget https://github.com/metrumresearchgroup/fab/releases/{{ .Tag }}/fab_{{ .Version }}_linux_amd64.tar.gz -O /tmp/fab.tar.gz
+    sudo wget https://github.com/metrumresearchgroup/fab/releases/download/{{ .Tag }}/fab_{{ .Version }}_linux_amd64.tar.gz -O /tmp/fab.tar.gz
     sudo tar xzf /tmp/fab.tar.gz fab
     sudo mv fab /usr/local/bin/fab
     sudo chmod +x /usr/local/bin/fab

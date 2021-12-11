@@ -2,6 +2,8 @@
 
 `fab`ricate a new project from a template... in a `fab`ulous way :-) 
 
+[![asciicast](https://asciinema.org/a/455511.svg)](https://asciinema.org/a/455511)
+
 ## setup
 
 The first time on a machine, fab can be initialized via

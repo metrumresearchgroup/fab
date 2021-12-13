@@ -22,19 +22,20 @@ THE SOFTWARE.
 package cmd
 
 import (
+	"fmt"
+
 	"github.com/spf13/cobra"
 )
 
-func configCmd(_ *cobra.Command, args []string) {
+func debugCmd(_ *cobra.Command, args []string) {
+	fmt.Printf("%#v\n", cfg)
 }
 
-func newConfigCmd() *cobra.Command {
+func newDebugCmd() *cobra.Command {
 	cmd := &cobra.Command{
-		Use:   "config",
-		Short: "configuration",
-		Run:   configCmd,
+		Use:   "debug",
+		Short: "debug",
+		Run:   debugCmd,
 	}
-	cmd.AddCommand(newConfigInitCmd())
-	cmd.AddCommand(newConfigAddCmd())
 	return cmd
 }

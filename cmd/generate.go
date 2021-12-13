@@ -23,12 +23,13 @@ package cmd
 
 import (
 	"errors"
-	"fab/internal/config"
-	"fab/internal/copier"
-	"fab/internal/vcs"
 	"io/fs"
 	"os"
 	"path/filepath"
+
+	"github.com/metrumresearchgroup/fab/internal/config"
+	"github.com/metrumresearchgroup/fab/internal/copier"
+	"github.com/metrumresearchgroup/fab/internal/vcs"
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/gobuffalo/plush"

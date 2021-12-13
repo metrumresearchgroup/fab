@@ -1,6 +1,6 @@
 package main
 
-import "fab/cmd"
+import "github.com/metrumresearchgroup/fab/cmd"
 
 // https://goreleaser.com/cookbooks/using-main.version
 var (
